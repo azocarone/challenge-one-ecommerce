@@ -15,32 +15,29 @@
     <!-- Referencias CSS -->
     <link rel="stylesheet" href="/assets/css/normalize.css">
     <link rel="stylesheet" href="/assets/css/reset.css">
-    <link rel="stylesheet" href="/assets/css/common.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
     <link rel="stylesheet" href="/assets/css/header.css">
 </head>
 
 <body>
 
     <header class="header">
-        <div class="">
-            <div class="">
-                <h1>
-                    <a class="link" href="/">
-                        <i class="fa-solid fa-gamepad"></i>
-                        <span><strong>Alura</strong>Geek</span>
-                    </a>
-                </h1>
-                <form class="search-form" action="/search.html">
-                    <label for="otra-cosa">¿Qué deseas buscar?</label>
-                    <input id="otra-cosa" class="" type="search" name="query" placeholder="¿Qué deseas buscar?">
+        <nav class="header__nav">
+            <div class="header__bar">
+                <a href="/" class="header__link">
+                    <img src="/assets/img/alurageek.svg" alt="Logo AluraGeek" class="header__logo">
+                </a>
+                <form action="/search.html" class="header__search-bar header__search-bar--wrapper">
+                    <label for="otra-cosa" class="">¿Qué deseas buscar?</label>
+                    <input type="search" class="" id="otra-cosa" name="query" placeholder="¿Qué deseas buscar?">
                     <button class="" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
                 </form>
             </div>
-            <a class="link" href="/login.html">Login</a>
-            <a class="link" href="/search.html">
+            <a href="/login.html" class="header__button header__button--measures">Login</a>
+            <a href="/search.html" class="header__link header__link--wrapper">
                 <i class="fa-solid fa-magnifying-glass"></i>
             </a>
-        </div>
+        </nav>
     </header>
 
     <!-- Script JavaScript -->

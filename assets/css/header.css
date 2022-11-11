@@ -1,0 +1,49 @@
+.header__nav {
+    display: flex;
+}
+
+.header__bar {
+    display: flex;
+    gap: 2rem;
+}
+
+.header__logo {
+    width: 6.25rem;
+    height: 1.75rem;
+}
+
+.header__search-bar {}
+
+.header__button {
+    box-sizing: border-box;
+    border: .063rem solid var(--blue100);
+    color: var(--blue100);
+    background: var(--white);
+    text-align: center;
+}
+
+.header__button--measures {
+    width: 8.313rem;
+    height: 2.5rem;
+    font-weight: 600;
+    font-size: .875rem;
+    line-height: 1rem;
+    padding: .75rem 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    .header__button--measures {
+        width: 10.375rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .header__button--measures {
+        width: 11.375rem;
+        height: 3.188rem;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.188rem;
+        padding: 1rem;
+    }
+}
