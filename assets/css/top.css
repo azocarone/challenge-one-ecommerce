@@ -10,19 +10,23 @@
     height: 28px;
 }
 
+.top__search-bar {
+    display: none;
+}
+
 .top__btn {
-    /* Botón */
+    /* Button */
     box-sizing: border-box;
     padding: 12px 16px;
     width: 133px;
     height: 40px;
     border: 1px solid var(--blue100);
-    /* Texto */
+    /* Text */
     font-weight: 600;
     font-size: 14px;
     line-height: 16px;
-    color: var(--blue100);
     text-align: center;
+    color: var(--blue100);
 }
 
 .top__icon-search {
@@ -31,22 +35,46 @@
 }
 
 @media screen and (min-width: 768px) {
-    
-    .top__search-bar-fld {
-
-
-        
+    .top__search-bar {
+        /* Flex */
+        display: flex;
+        align-items: center;
+        padding: 8px 16px;
+        gap: 8px;
+        /* Box */
+        width: 272px;
+        height: 40px;
+        border-radius: 20px;
+        background: var(--black05);
     }
-    
+
+    .top__search-bar-lbl {
+        display: none;
+    }
+
+    .top__search-bar-fld {
+        /* Box */
+        width: 208px;
+        height: 16px;
+        border: none;
+        outline: none;
+        /* Text */
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: var(--black50);
+        background: transparent;
+    }
+
     .top__search-bar-btn {
         background: transparent;
         border: none;
     }
-    
 
-    
-    
-    
+    .top__btn {
+        width: 166px;
+    }
+
     .top__search-lnk {
         display: none;
     }
@@ -56,5 +84,26 @@
     .top__logo-lnk {
         width: 176px;
         height: 50px;
+    }
+
+    .top__search-bar {
+        /* Box */
+        width: 393px;
+    }
+
+    .top__search-bar-fld {
+        /* Box */
+        width: 329px;
+    }
+
+    .top__btn {
+        /* Button */
+        padding: 16px;
+        width: 182px;
+        height: 51px;
+        /* Text */
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
     }
 }
