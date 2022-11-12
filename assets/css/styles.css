@@ -1,11 +1,11 @@
 :root {
     --black100: #464646;
-    --black50: #a2a2a2;
-    --black30: #c8c8c8;
-    --black05: #f5f5f5;
-    --blue100: #2a7ae4;
-    --blue10: #eaf2fd;
-    --white: #ffffff;
+    --black50: #A2A2A2;
+    --black30: #C8C8C8;
+    --black05: #F5F5F5;
+    --blue100: #2A7AE4;
+    --blue10: #EAF2FD;
+    --white: #FFFFFF;
 }
 
 body {

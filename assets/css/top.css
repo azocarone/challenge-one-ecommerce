@@ -1,0 +1,60 @@
+.top__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+.top__logo-lnk {
+    width: 100px;
+    height: 28px;
+}
+
+.top__btn {
+    /* Botón */
+    box-sizing: border-box;
+    padding: 12px 16px;
+    width: 133px;
+    height: 40px;
+    border: 1px solid var(--blue100);
+    /* Texto */
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--blue100);
+    text-align: center;
+}
+
+.top__icon-search {
+    width: 17.05px;
+    height: auto;
+}
+
+@media screen and (min-width: 768px) {
+    
+    .top__search-bar-fld {
+
+
+        
+    }
+    
+    .top__search-bar-btn {
+        background: transparent;
+        border: none;
+    }
+    
+
+    
+    
+    
+    .top__search-lnk {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .top__logo-lnk {
+        width: 176px;
+        height: 50px;
+    }
+}

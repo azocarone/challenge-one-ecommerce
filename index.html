@@ -13,35 +13,44 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     <!-- Referencias CSS -->
-    <link rel="stylesheet" href="/assets/css/normalize.css">
-    <link rel="stylesheet" href="/assets/css/reset.css">
-    <link rel="stylesheet" href="/assets/css/styles.css">
-    <link rel="stylesheet" href="/assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/top.css">
 </head>
 
 <body>
+<header class="top">
+    <nav class="top__nav">
+        <!-- <div class="top__bar"> -->
+    
+        <a href="/" class="top__lnk-logo">
+            <img src="assets/img/logo_alurageek.svg" alt="Logo AluraGeek" class="top__logo-lnk">
+        </a>
+    
+        <form action="search.html" class="top__search-bar">
+            <label for="top__search-bar-fld" class="top__search-bar-lbl">¿Qué deseas buscar?</label>
 
-    <header class="header">
-        <nav class="header__nav">
-            <div class="header__bar">
-                <a href="/" class="header__link">
-                    <img src="/assets/img/alurageek.svg" alt="Logo AluraGeek" class="header__logo">
-                </a>
-                <form action="/search.html" class="header__search-bar header__search-bar--wrapper">
-                    <label for="otra-cosa" class="">¿Qué deseas buscar?</label>
-                    <input type="search" class="" id="otra-cosa" name="query" placeholder="¿Qué deseas buscar?">
-                    <button class="" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-                </form>
-            </div>
-            <a href="/login.html" class="header__button header__button--measures">Login</a>
-            <a href="/search.html" class="header__link header__link--wrapper">
-                <i class="fa-solid fa-magnifying-glass"></i>
-            </a>
-        </nav>
-    </header>
+
+            
+
+            <input type="search" id="top__search-bar-fld" name="query" placeholder="¿Qué deseas buscar?" class="top__search-bar-fld">
+            <button type="submit" class="top__search-bar-btn">
+                <img src="assets/img/icon_search_black50.svg" alt="Icono búsqueda" class="top__icon-search">
+            </button>
+        </form>
+     
+        <a href="login.html" class="top__btn">Login</a>
+        
+        <a href="search.html" class="top__search-lnk">
+            <img src="assets/img/icon_search_black100.svg" alt="Icono búsqueda" class="top__icon-search">
+        </a>
+    
+    </nav>
+</header>
 
     <!-- Script JavaScript -->
-    <script src="https://kit.fontawesome.com/76f0e7f5f8.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://kit.fontawesome.com/76f0e7f5f8.js" crossorigin="anonymous"></script> -->
 
 </body>
 
