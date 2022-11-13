@@ -1,0 +1,29 @@
+.poster__promo {
+    color: var(--white);
+}
+
+.poster__title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.poster__detail {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.poster__btn {
+    /* Button */
+    padding: 12px 16px;
+    width: 118px;
+    height: 40px;
+    background: var(--blue100);
+    /* Text */
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: var(--white);
+}

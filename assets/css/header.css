@@ -1,11 +1,11 @@
-.top__nav {
+.header__nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 16px;
 }
 
-.top__logo-search {
+.header__logo-search {
     /* Flex */
     display: flex;
     align-items: center;
@@ -15,16 +15,16 @@
     height: 28px;
 }
 
-.top__logo-lnk {
+.header__logo-lnk {
     width: 100px;
     height: 28px;
 }
 
-.top__search-bar {
+.header__search-bar {
     display: none;
 }
 
-.top__btn-login {
+.header__btn-login {
     /* Button */
     box-sizing: border-box;
     padding: 12px 16px;
@@ -39,18 +39,18 @@
     color: var(--blue100);
 }
 
-.top__icon-search {
+.header__icon-search {
     width: 17.05px;
     height: auto;
 }
 
 @media screen and (min-width: 768px) {
-    .top__logo-search {
+    .header__logo-search {
         width: 404px;
         height: 40px;
     }
 
-    .top__search-bar {
+    .header__search-bar {
         /* Flex */
         display: flex;
         align-items: center;
@@ -63,11 +63,11 @@
         background: var(--black05);
     }
 
-    .top__search-bar-lbl {
+    .header__search-bar-lbl {
         display: none;
     }
 
-    .top__search-bar-fld {
+    .header__search-bar-fld {
         /* Box */
         width: 208px;
         height: 16px;
@@ -81,42 +81,42 @@
         background: transparent;
     }
 
-    .top__search-bar-btn {
+    .header__search-bar-btn {
         background: transparent;
         border: none;
     }
 
-    .top__btn-login {
+    .header__btn-login {
         width: 166px;
     }
 
-    .top__search-lnk {
+    .header__search-lnk {
         display: none;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .top__logo-search {
+    .header__logo-search {
         width: 601px;
         height: 50px;
     }
 
-    .top__logo-lnk {
+    .header__logo-lnk {
         width: 176px;
         height: 50px;
     }
 
-    .top__search-bar {
+    .header__search-bar {
         /* Box */
         width: 393px;
     }
 
-    .top__search-bar-fld {
+    .header__search-bar-fld {
         /* Box */
         width: 329px;
     }
 
-    .top__btn-login {
+    .header__btn-login {
         /* Button */
         padding: 16px;
         width: 182px;
