@@ -1,4 +1,24 @@
+.poster {
+    /* Box */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 16px;
+    gap: 16px;
+    width: auto;
+    height: 192px;
+    /* Background */
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), url(/assets/img/poster.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
 .poster__promo {
+    /* Box */
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    /* Text */
     color: var(--white);
 }
 
@@ -26,4 +46,35 @@
     line-height: 16px;
     text-align: center;
     color: var(--white);
+}
+
+@media screen and (min-width: 768px) {
+    .poster {
+        padding: 32px;
+        height: 352px;
+    }
+
+    .poster__title {
+        font-size: 52px;
+        line-height: 61px;
+    }
+
+    .poster__detail {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 26px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .poster__btn {
+        /* Button */
+        padding: 16px;
+        width: 129px;
+        height: 51px;
+        /* Text */
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+    }
 }
