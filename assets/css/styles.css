@@ -35,17 +35,6 @@ p {
     margin-bottom: 0;
 }
 
-/*button {
-    box-sizing: border-box;
-    border: .063rem solid var(--botao-border);
-    margin-right: 1rem;
-    font-size: .875rem;
-    font-weight: 600;
-    text-align: center;
-    cursor: pointer;
-    transition: 1s;
-}*/
-
 /*@media screen and (min-width: 1024px) {
     .container {
         padding-left: calc((100% - 940px)/2);
