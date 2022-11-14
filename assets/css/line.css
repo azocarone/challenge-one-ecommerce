@@ -1,3 +1,10 @@
+.line {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    gap: 16px;
+}
+
 .line__group {
     display: flex;
     justify-content: space-between;
@@ -32,12 +39,11 @@
 
 /* Card Distribution */
 
-.line__detail{
-    display:flex;
-    justify-content:space-around;
-    gap: 16px;
-
+.line__detail {
+    display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 16px;
 }
 
 /* Card */
@@ -64,6 +70,7 @@
 
 .line__article-price {
     font-weight: 700;
+    font-size: 16px;
     line-height: 19px;
 }
 
@@ -75,3 +82,51 @@
 }
 
 /* ------------- */
+
+@media screen and (min-width: 768px) {
+    .line {
+        padding: 32px;
+    }
+    
+    .line__lnk {
+        gap: 8px;
+    }
+
+    .line__txt-lnk {
+        font-size: 16px;
+        line-height: 19x;
+    }
+
+    .line__img-lnk {
+        width: 16px;
+        height: 16px;
+    }
+
+    /* Card Elements */
+
+    .line__img-article {
+        width: 164px;
+    }
+
+    .line__lnk-article {
+        font-size: 16px;
+        line-height: 19px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .line {
+        padding: 64px;
+    }
+    
+    .line__title {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    /* Card Elements */
+
+    .line__img-article {
+        width: 176px;
+    }
+}
