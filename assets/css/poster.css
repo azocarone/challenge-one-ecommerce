@@ -37,7 +37,7 @@
     line-height: 16px;
 }
 
-.poster__btn {
+.poster__lnk {
     /* Button */
     padding: 12px 16px;
     width: 118px;
@@ -70,7 +70,7 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .poster__btn {
+    .poster__lnk {
         /* Button */
         padding: 16px;
         width: 129px;

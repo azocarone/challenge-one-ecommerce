@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="assets/css/poster.css">
+    <link rel="stylesheet" href="assets/css/line.css">
 </head>
 
 <body>
@@ -26,34 +27,54 @@
         <nav class="header__nav">
             <div class="header__logo-search">
                 <a href="." class="header__lnk-logo">
-                    <img src="assets/img/logo_alurageek.svg" alt="Logo AluraGeek" class="header__logo-lnk">
+                    <img src="assets/img/logo_alurageek.svg" alt="Logo AluraGeek" class="header__img-lnk">
                 </a>
-                <form action="search.html" class="header__search-bar">
-                    <label for="header__search-bar-fld" class="header__search-bar-lbl">¿Qué deseas buscar?</label>
-                    <input type="search" id="header__search-bar-fld" name="query" placeholder="¿Qué deseas buscar?"
-                        class="header__search-bar-fld">
-                    <button type="submit" class="header__search-bar-btn">
-                        <img src="assets/img/icon_search_black50.svg" alt="Icono búsqueda" class="header__icon-search">
+                <form action="search.html" class="header__search">
+                    <label for="header__search-fld" class="header__search-lbl">¿Qué deseas buscar?</label>
+                    <input type="search" id="header__search-fld" name="query" placeholder="¿Qué deseas buscar?"
+                        class="header__search-fld">
+                    <button type="submit" class="header__search-btn">
+                        <img src="assets/img/icon_search_black50.svg" alt="Icono búsqueda" class="header__img-search">
                     </button>
                 </form>
             </div>
-            <a href="login.html" class="header__btn-login">Login</a>
-            <a href="search.html" class="header__search-lnk">
-                <img src="assets/img/icon_search_black100.svg" alt="Icono búsqueda" class="header__icon-search">
+            <a href="login.html" class="header__lnk-login">Login</a>
+            <a href="search.html" class="header__lnk-search">
+                <img src="assets/img/icon_search_black100.svg" alt="Icono búsqueda" class="header__img-search">
             </a>
         </nav>
     </header>
 
     <main class="main">
-        
+
         <section class="poster">
             <div class="poster__promo">
                 <h2 class="poster__title">Noviembre Promocional</h2>
                 <p class="poster__detail">Productos seleccionados con 33% de descuento</p>
-                <a href="#" class="poster__btn">Ver Consolas</a>
+                <a href="#" class="poster__lnk">Ver Consolas</a>
             </div>
         </section>
-    
+
+        <section class="line" id="">
+            <div class="line__group">
+                <h2 class="line__title">Star Wars</h2>
+                <a href="#" class="line__lnk">
+                    <span class="line__txt-lnk">Ver todo</span>
+                    <img src="assets/img/icon_arrow_blue100.svg" alt="" class="line__img-lnk">
+                </a>
+            </div>
+            <div class="line__products">
+                <div class="line__detail">
+                    <ul class="line__article">
+                        <li class="line__article-image"><img src="assets/img/products/star_wars/product_sw01.jpg" alt="" class="line__img-article"></li>
+                        <li class="line__article-name">Producto XYZ</li>
+                        <li class="line__article-price">$ 60.00</li>
+                        <li class="line__article-anchor"><a href="#" class="line__lnk-article">Ver producto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
     </main>
 
     <!-- Script JavaScript -->
