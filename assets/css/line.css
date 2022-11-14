@@ -1,0 +1,77 @@
+.line__group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    height: 26px;
+}
+
+.line__title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.line__lnk {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.line__txt-lnk {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--blue100);
+}
+
+.line__img-lnk {
+    width: 10.67px;
+    height: 10.67px;
+}
+
+/* Card Distribution */
+
+.line__detail{
+    display:flex;
+    justify-content:center;
+    gap: 16px;
+
+    flex-wrap: wrap;
+}
+
+/* Card */
+
+.line__article {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+/* Card Elements */
+
+.line__img-article {
+    width: 156px;
+    height: 174px;
+}
+
+.line__article-name {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.line__article-price {
+    font-weight: 700;
+    line-height: 19px;
+}
+
+.line__lnk-article {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--blue100);
+}
+
+/* ------------- */
