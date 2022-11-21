@@ -28,6 +28,11 @@
     display: none;
 }
 
+.header__img-search {
+    width: 17.05px;
+    height: auto;
+}
+
 .header__a--login {
     width: 133px;
     height: 40px;
@@ -38,12 +43,7 @@
     font-size: 14px;
     line-height: 16px;
     color: var(--blue100);
-}
-
-.header__img--button,
-.header__img--a {
-    width: 17.05px;
-    height: auto;
+    text-align: center;
 }
 
 @media screen and (min-width: 768px) {
@@ -107,18 +107,17 @@
         height: 50px;
     }
 
-    .header__img--button,
-    .header__img--a {
-        width: 17.05px;
-        height: auto;
-    }
-
     .header__form {
         width: 393px;
     }
 
     .header__input {
         width: 329px;
+    }
+
+    .header__img--search {
+        width: 17.05px;
+        height: auto;
     }
 
     .header__a--login {
