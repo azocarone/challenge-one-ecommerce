@@ -34,7 +34,7 @@
 }
 
 .banner__a {
-    width: 118px;
+    width: 119px;
     height: 40px;
     background: var(--blue100);
     padding: 12px 16px;
@@ -43,11 +43,11 @@
     line-height: 16px;
     color: var(--white);
     text-align: center;
-    transition: .3s;
 }
 
 .banner__a:hover {
     background: var(--blue80);
+    transition: .3s;
 }
 
 @media screen and (min-width: 768px) {
