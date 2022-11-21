@@ -17,193 +17,221 @@
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/header.css">
-    <link rel="stylesheet" href="assets/css/poster.css">
+    <link rel="stylesheet" href="assets/css/banner.css">
     <link rel="stylesheet" href="assets/css/line.css">
-    <link rel="stylesheet" href="assets/css/dev.css">
+    <link rel="stylesheet" href="assets/css/corporate.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
 </head>
 
 <body>
 
     <header class="header">
-        
-        <nav class="header__nav">
-            <div class="header__logo-search">
-                <a href="." class="header__lnk-logo">
-                    <img src="assets/img/logo_alurageek.svg" alt="Logo AluraGeek" class="header__img-lnk">
+        <div class="header__div">
+            <h1 class="header__h1">
+                <a href="." class="header__a" title="AluraGeek">
+                    <img src="assets/img/logo_alurageek.svg" alt="Logo AluraGeek" class="header__img">
                 </a>
-                <form action="search.html" class="header__search">
-                    <label for="header__search-fld" class="header__search-lbl">¿Qué deseas buscar?</label>
-                    <input type="search" id="header__search-fld" name="query" placeholder="¿Qué deseas buscar?"
-                        class="header__search-fld">
-                    <button type="submit" class="header__search-btn">
-                        <img src="assets/img/icon_search_black50.svg" alt="Icono búsqueda" class="header__img-search">
-                    </button>
-                </form>
-            </div>
-            <a href="login.html" class="header__lnk-login">Login</a>
-            <a href="search.html" class="header__lnk-search">
-                <img src="assets/img/icon_search_black100.svg" alt="Icono búsqueda" class="header__img-search">
-            </a>
-        </nav>
-    
+            </h1>
+            <form action="indevelopment.html" class="header__form">
+                <label for="header__input" class="header__label">¿Qué deseas buscar?</label>
+                <input type="search" id="header__input" name="query" placeholder="¿Qué deseas buscar?"
+                    class="header__input">
+                <button type="submit" class="header__button" title="Buscar">
+                    <img src="assets/img/icon_search_black50.svg" alt="Icono búsqueda"
+                        class="header__img header__img--button">
+                </button>
+            </form>
+        </div>
+        <a href="indevelopment.html" class="header__a header__a--login" title="Login">Login</a>
+        <a href="indevelopment.html" class="header__a header__a--search" title="Buscar">
+            <img src="assets/img/icon_search_black100.svg" alt="Icono búsqueda" class="header__img header__img--a">
+        </a>
     </header>
 
     <main class="main">
 
-        <section class="poster">
-            <div class="poster__promo">
-                <h2 class="poster__title">Noviembre Promocional</h2>
-                <p class="poster__detail">Productos seleccionados con 33% de descuento</p>
-                <a href="#consolas" class="poster__lnk">Ver Consolas</a>
+        <section class="banner">
+            <div class="banner__div">
+                <h2 class="banner__h2">Noviembre Promocional</h2>
+                <p class="banner__p">Productos seleccionados con 33% de descuento</p>
+                <a href="#consolas" class="banner__a">Ver Consolas</a>
             </div>
         </section>
 
         <section class="line" id="star-wars">
-            <div class="line__group">
-                <h2 class="line__title">Star Wars</h2>
-                <a href="#" class="line__lnk">
-                    <span class="line__txt-lnk">Ver todo</span>
-                    <img src="assets/img/icon_arrow_blue100.svg" alt="" class="line__img-lnk">
+            <div class="line__div-name">
+                <h2 class="line__h2">Star Wars</h2>
+                <a href="indevelopment.html" class="line__a line__a--flex">Ver todo
+                    <img src="assets/img/icon_arrow_blue100.svg" alt="" class="line__img-name">
                 </a>
             </div>
-            <div class="line__products">
-                <div class="line__detail">
-                    <ul class="line__article">
-                        <li class="line__article-image"><img src="assets/img/products/star_wars/product_sw01.jpg" alt="" class="line__img-article"></li>
-                        <li class="line__article-name">Producto XYZ</li>
-                        <li class="line__article-price">$ 60.00</li>
-                        <li class="line__article-anchor"><a href="#" class="line__lnk-article">Ver producto</a></li>
-                    </ul>
-                    <ul class="line__article">
-                        <li class="line__article-image"><img src="assets/img/products/star_wars/product_sw02.jpg" alt="" class="line__img-article"></li>
-                        <li class="line__article-name">Producto XYZ</li>
-                        <li class="line__article-price">$ 60.00</li>
-                        <li class="line__article-anchor"><a href="#" class="line__lnk-article">Ver producto</a></li>
-                    </ul>
-                    <ul class="line__article">
-                        <li class="line__article-image"><img src="assets/img/products/star_wars/product_sw03.jpg" alt="" class="line__img-article"></li>
-                        <li class="line__article-name">Producto XYZ</li>
-                        <li class="line__article-price">$ 60.00</li>
-                        <li class="line__article-anchor"><a href="#" class="line__lnk-article">Ver producto</a></li>
-                    </ul>
-                    <ul class="line__article">
-                        <li class="line__article-image"><img src="assets/img/products/star_wars/product_sw04.jpg" alt="" class="line__img-article"></li>
-                        <li class="line__article-name">Producto XYZ</li>
-                        <li class="line__article-price">$ 60.00</li>
-                        <li class="line__article-anchor"><a href="#" class="line__lnk-article">Ver producto</a></li>
-                    </ul>
-                    <ul class="line__article">
-                        <li class="line__article-image"><img src="assets/img/products/star_wars/product_sw05.jpg" alt="" class="line__img-article"></li>
-                        <li class="line__article-name">Producto XYZ</li>
-                        <li class="line__article-price">$ 60.00</li>
-                        <li class="line__article-anchor"><a href="#" class="line__lnk-article">Ver producto</a></li>
-                    </ul>
-                    <ul class="line__article">
-                        <li class="line__article-image"><img src="assets/img/products/star_wars/product_sw06.jpg" alt="" class="line__img-article"></li>
-                        <li class="line__article-name">Producto XYZ</li>
-                        <li class="line__article-price">$ 60.00</li>
-                        <li class="line__article-anchor"><a href="#" class="line__lnk-article">Ver producto</a></li>
-                    </ul>
+            <div class="line__div-items">
+                <div class="line__div-product">
+                    <img src="assets/img/products/star_wars/product_sw01.jpg" alt="" class="line__img-product">
+                    <h3 class="line__h3">Producto XYZ</h3>
+                    <p class="line__p">US$60.00</p>
+                    <a href="indevelopment.html" class="line__a">Ver producto</a>
+                </div>
+                <div class="line__div-product">
+                    <img src="assets/img/products/star_wars/product_sw02.jpg" alt="" class="line__img-product">
+                    <h3 class="line__h3">Producto XYZ</h3>
+                    <p class="line__p">US$60.00</p>
+                    <a href="indevelopment.html" class="line__a">Ver producto</a>
+                </div>
+                <div class="line__div-product">
+                    <img src="assets/img/products/star_wars/product_sw03.jpg" alt="" class="line__img-product">
+                    <h3 class="line__h3">Producto XYZ</h3>
+                    <p class="line__p">US$60.00</p>
+                    <a href="indevelopment.html" class="line__a">Ver producto</a>
+                </div>
+                <div class="line__div-product">
+                    <img src="assets/img/products/star_wars/product_sw04.jpg" alt="" class="line__img-product">
+                    <h3 class="line__h3">Producto XYZ</h3>
+                    <p class="line__p">US$60.00</p>
+                    <a href="indevelopment.html" class="line__a">Ver producto</a>
+                </div>
+                <div class="line__div-product">
+                    <img src="assets/img/products/star_wars/product_sw05.jpg" alt="" class="line__img-product">
+                    <h3 class="line__h3">Producto XYZ</h3>
+                    <p class="line__p">US$60.00</p>
+                    <a href="indevelopment.html" class="line__a">Ver producto</a>
+                </div>
+                <div class="line__div-product">
+                    <img src="assets/img/products/star_wars/product_sw06.jpg" alt="" class="line__img-product">
+                    <h3 class="line__h3">Producto XYZ</h3>
+                    <p class="line__p">US$60.00</p>
+                    <a href="indevelopment.html" class="line__a">Ver producto</a>
                 </div>
             </div>
         </section>
 
         <section class="line" id="consolas">
-            <div class="line__group">
-                <h2 class="line__title">Consolas</h2>
-                <a href="#" class="line__lnk">
-                    <span class="line__txt-lnk">Ver todo</span>
-                    <img src="assets/img/icon_arrow_blue100.svg" alt="" class="line__img-lnk">
+            <div class="line__div-name">
+                <h2 class="line__h2">Consolas</h2>
+                <a href="indevelopment.html" class="line__a line__a--flex">Ver todo
+                    <img src="assets/img/icon_arrow_blue100.svg" alt="" class="line__img-name">
                 </a>
             </div>
-            <div class="line__products">
-                <div class="line__detail">
-                    <ul class="line__article">
-                        <li class="line__article-image"><img src="assets/img/products/consoles/product_c01.jpg" alt="" class="line__img-article"></li>
-                        <li class="line__article-name">Control XYZ</li>
-                        <li class="line__article-price">$ 60.00</li>
-                        <li class="line__article-anchor"><a href="#" class="line__lnk-article">Ver producto</a></li>
-                    </ul>
-                    <ul class="line__article">
-                        <li class="line__article-image"><img src="assets/img/products/consoles/product_c02.jpg" alt="" class="line__img-article"></li>
-                        <li class="line__article-name">Control y consola XYZ</li>
-                        <li class="line__article-price">$ 60.00</li>
-                        <li class="line__article-anchor"><a href="#" class="line__lnk-article">Ver producto</a></li>
-                    </ul>
-                    <ul class="line__article">
-                        <li class="line__article-image"><img src="assets/img/products/consoles/product_c03.jpg" alt="" class="line__img-article"></li>
-                        <li class="line__article-name">Consola XYZ</li>
-                        <li class="line__article-price">$ 60.00</li>
-                        <li class="line__article-anchor"><a href="#" class="line__lnk-article">Ver producto</a></li>
-                    </ul>
-                    <ul class="line__article">
-                        <li class="line__article-image"><img src="assets/img/products/consoles/product_c04.jpg" alt="" class="line__img-article"></li>
-                        <li class="line__article-name">Consola XYZ</li>
-                        <li class="line__article-price">$ 60.00</li>
-                        <li class="line__article-anchor"><a href="#" class="line__lnk-article">Ver producto</a></li>
-                    </ul>
-                    <ul class="line__article">
-                        <li class="line__article-image"><img src="assets/img/products/consoles/product_c05.jpg" alt="" class="line__img-article"></li>
-                        <li class="line__article-name">Consola XYZ</li>
-                        <li class="line__article-price">$ 60.00</li>
-                        <li class="line__article-anchor"><a href="#" class="line__lnk-article">Ver producto</a></li>
-                    </ul>
-                    <ul class="line__article">
-                        <li class="line__article-image"><img src="assets/img/products/consoles/product_c06.jpg" alt="" class="line__img-article"></li>
-                        <li class="line__article-name">game Boy Color</li>
-                        <li class="line__article-price">$ 60.00</li>
-                        <li class="line__article-anchor"><a href="#" class="line__lnk-article">Ver producto</a></li>
-                    </ul>
+            <div class="line__div-items">
+                <div class="line__div-product">
+                    <img src="assets/img/products/consoles/product_c01.jpg" alt="" class="line__img-product">
+                    <h3 class="line__h3">Control XYZ</h3>
+                    <p class="line__p">US$60.00</p>
+                    <a href="indevelopment.html" class="line__a">Ver producto</a>
+                </div>
+                <div class="line__div-product">
+                    <img src="assets/img/products/consoles/product_c02.jpg" alt="" class="line__img-product">
+                    <h3 class="line__h3">Control y consola XYZ</h3>
+                    <p class="line__p">US$60.00</p>
+                    <a href="indevelopment.html" class="line__a">Ver producto</a>
+                </div>
+                <div class="line__div-product">
+                    <img src="assets/img/products/consoles/product_c03.jpg" alt="" class="line__img-product">
+                    <h3 class="line__h3">Consola XYZ</h3>
+                    <p class="line__p">US$60.00</p>
+                    <a href="indevelopment.html" class="line__a">Ver producto</a>
+                </div>
+                <div class="line__div-product">
+                    <img src="assets/img/products/consoles/product_c04.jpg" alt="" class="line__img-product">
+                    <h3 class="line__h3">Control XYZ</h3>
+                    <p class="line__p">US$60.00</p>
+                    <a href="indevelopment.html" class="line__a">Ver producto</a>
+                </div>
+                <div class="line__div-product">
+                    <img src="assets/img/products/consoles/product_c05.jpg" alt="" class="line__img-product">
+                    <h3 class="line__h3">Control XYZ</h3>
+                    <p class="line__p">US$60.00</p>
+                    <a href="indevelopment.html" class="line__a">Ver producto</a>
+                </div>
+                <div class="line__div-product">
+                    <img src="assets/img/products/consoles/product_c06.jpg" alt="" class="line__img-product">
+                    <h3 class="line__h3">Game Boy Color</h3>
+                    <p class="line__p">US$60.00</p>
+                    <a href="indevelopment.html" class="line__a">Ver producto</a>
                 </div>
             </div>
         </section>
 
         <section class="line" id="diversos">
-            <div class="line__group">
-                <h2 class="line__title">Diversos</h2>
-                <a href="#" class="line__lnk">
-                    <span class="line__txt-lnk">Ver todo</span>
-                    <img src="assets/img/icon_arrow_blue100.svg" alt="" class="line__img-lnk">
+            <div class="line__div-name">
+                <h2 class="line__h2">Diversos</h2>
+                <a href="indevelopment.html" class="line__a line__a--flex">Ver todo
+                    <img src="assets/img/icon_arrow_blue100.svg" alt="" class="line__img-name">
                 </a>
             </div>
-            <div class="line__products">
-                <div class="line__detail">
-                    <ul class="line__article">
-                        <li class="line__article-image"><img src="assets/img/products/various/product_v01.jpg" alt="" class="line__img-article"></li>
-                        <li class="line__article-name">Camisa Atari</li>
-                        <li class="line__article-price">$ 60.00</li>
-                        <li class="line__article-anchor"><a href="#" class="line__lnk-article">Ver producto</a></li>
-                    </ul>
-                    <ul class="line__article">
-                        <li class="line__article-image"><img src="assets/img/products/various/product_v02.jpg" alt="" class="line__img-article"></li>
-                        <li class="line__article-name">Camisa SNES</li>
-                        <li class="line__article-price">$ 60.00</li>
-                        <li class="line__article-anchor"><a href="#" class="line__lnk-article">Ver producto</a></li>
-                    </ul>
-                    <ul class="line__article">
-                        <li class="line__article-image"><img src="assets/img/products/various/product_v03.jpg" alt="" class="line__img-article"></li>
-                        <li class="line__article-name">Control y consola XYZ</li>
-                        <li class="line__article-price">$ 60.00</li>
-                        <li class="line__article-anchor"><a href="#" class="line__lnk-article">Ver producto</a></li>
-                    </ul>
-                    <ul class="line__article">
-                        <li class="line__article-image"><img src="assets/img/products/various/product_v04.jpg" alt="" class="line__img-article"></li>
-                        <li class="line__article-name">Control y consola XYZ</li>
-                        <li class="line__article-price">$ 60.00</li>
-                        <li class="line__article-anchor"><a href="#" class="line__lnk-article">Ver producto</a></li>
-                    </ul>
-                    <ul class="line__article">
-                        <li class="line__article-image"><img src="assets/img/products/various/product_v05.jpg" alt="" class="line__img-article"></li>
-                        <li class="line__article-name">Control y consola XYZ</li>
-                        <li class="line__article-price">$ 60.00</li>
-                        <li class="line__article-anchor"><a href="#" class="line__lnk-article">Ver producto</a></li>
-                    </ul>
-                    <ul class="line__article">
-                        <li class="line__article-image"><img src="assets/img/products/various/product_v06.jpg" alt="" class="line__img-article"></li>
-                        <li class="line__article-name">Producto XYZ</li>
-                        <li class="line__article-price">$ 60.00</li>
-                        <li class="line__article-anchor"><a href="#" class="line__lnk-article">Ver producto</a></li>
-                    </ul>
+            <div class="line__div-items">
+                <div class="line__div-product">
+                    <img src="assets/img/products/various/product_v01.jpg" alt="" class="line__img-product">
+                    <h3 class="line__h3">Camisa Atari</h3>
+                    <p class="line__p">US$60.00</p>
+                    <a href="indevelopment.html" class="line__a">Ver producto</a>
+                </div>
+                <div class="line__div-product">
+                    <img src="assets/img/products/various/product_v02.jpg" alt="" class="line__img-product">
+                    <h3 class="line__h3">Camisa SNES</h3>
+                    <p class="line__p">US$60.00</p>
+                    <a href="indevelopment.html" class="line__a">Ver producto</a>
+                </div>
+                <div class="line__div-product">
+                    <img src="assets/img/products/various/product_v03.jpg" alt="" class="line__img-product">
+                    <h3 class="line__h3">Control y consola XYZ</h3>
+                    <p class="line__p">US$60.00</p>
+                    <a href="indevelopment.html" class="line__a">Ver producto</a>
+                </div>
+                <div class="line__div-product">
+                    <img src="assets/img/products/various/product_v04.jpg" alt="" class="line__img-product">
+                    <h3 class="line__h3">Control y consola XYZ</h3>
+                    <p class="line__p">US$60.00</p>
+                    <a href="indevelopment.html" class="line__a">Ver producto</a>
+                </div>
+                <div class="line__div-product">
+                    <img src="assets/img/products/various/product_v05.jpg" alt="" class="line__img-product">
+                    <h3 class="line__h3">Control y consola XYZ</h3>
+                    <p class="line__p">US$60.00</p>
+                    <a href="indevelopment.html" class="line__a">Ver producto</a>
+                </div>
+                <div class="line__div-product">
+                    <img src="assets/img/products/various/product_v06.jpg" alt="" class="line__img-product">
+                    <h3 class="line__h3">Producto XYZ</h3>
+                    <p class="line__p">US$60.00</p>
+                    <a href="indevelopment.html" class="line__a">Ver producto</a>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+        <section class="corporate">
+            <div class="formcontato__contacto">
+                <div class="formcontato--esquerda">
+                    <img class="formcontato__img" src="img/contact_image.png" alt="">
+                </div>
+                <div class="formcontato__text">
+                    <h2 class="formcontato__title">Hable con nosotros</h2>
+                    <form action="./envio.html" class="formcontato__form" name="form">
+                        <div class="formcontato__input-container">
+                            <input class="formcontato__input" type="text" name="nombre" placeholder="Nombre" required
+                                pattern="^(?!\s*$).+" maxlength="50" data-tipo="nombre">
+                            <label class="formcontato__label" for="nombre">Nombre</label>
+                            <span class="formcontato__message-error"></span>
+                        </div>
+                        <div class="formcontato__input-container">
+                            <textarea class="formcontato__textarea" rows="6" cols="50" id="mensa#EAF2FD;gem"
+                                name="mensaje" placeholder="Escribe tú mensaje" required maxlength="300"
+                                data-tipo="mensaje"></textarea>
+                            <label class="formcontato__label" for="mensaje">Escribe tú mensaje</label>
+                            <span class="formcontato__message-error"></span>
+                        </div>
+                        <button type="submit" class="formcontato__botao" disabled>Enviar mensaje</button>
+                    </form>
                 </div>
             </div>
         </section>
@@ -211,18 +239,12 @@
     </main>
 
     <footer class="footer">
-    
-        <section class="dev container">
-            <div class="dev__content">
-                <div class="dev__copyright">
-                    <img class="dev__img" src="assets/img/azocarone.svg" alt="Logo José AZÓCAR (azocarONE)">
-                    <p>© 2022 José AZÓCAR (azocarONE)</p>
-                </div>
-                <p>Challenge ONE G3 | Front End - Sprint 2</p>
-                <img class="dev__img" src="assets/img/logo_oracleAlura-es.svg" alt="Logo Oracle + Alura Latam">
-            </div>
-        </section>
-    
+        <div class="footer__div">
+            <img src="assets/img/azocarone.svg" alt="Logo José AZÓCAR (azocarONE)" class="footer__img">
+            <p class="footer__p">© 2022 José AZÓCAR (azocarONE)</p>
+        </div>
+        <p class="footer__p">Challenge ONE G3 | Front End - Sprint 2</p>
+        <img src="assets/img/logo_oracleAlura-es.svg" alt="Logo Oracle + Alura Latam" class="footer__img">
     </footer>
 
     <!-- Script JavaScript -->

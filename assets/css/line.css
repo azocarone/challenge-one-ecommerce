@@ -5,112 +5,94 @@
     gap: 16px;
 }
 
-.line__group {
+.line__div-name {
+    width: auto;
+    height: 26px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: auto;
-    height: 26px;
 }
 
-.line__title {
+.line__h2 {
     font-weight: 700;
     font-size: 22px;
     line-height: 26px;
 }
 
-.line__lnk {
-    display: flex;
-    align-items: center;
-    gap: 4px;
-}
-
-.line__txt-lnk {
+.line__a {
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
     color: var(--blue100);
 }
 
-.line__img-lnk {
+.line__a--flex {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.line__img-name {
     width: 10.67px;
     height: 10.67px;
 }
 
-/* Card Distribution */
+/* Cards */
 
-.line__detail {
+.line__div-items {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 16px;
 }
 
-/* Card */
-
-.line__article {
+.line__div-product {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
 }
 
-/* Card Elements */
-
-.line__img-article {
+.line__img-product {
     width: 156px;
     height: 174px;
 }
 
-.line__article-name {
+.line__h3 {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
 }
 
-.line__article-price {
+.line__p {
     font-weight: 700;
     font-size: 16px;
     line-height: 19px;
 }
 
-.line__lnk-article {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    color: var(--blue100);
-}
-
-/* ------------- */
-
 @media screen and (min-width: 768px) {
     .line {
         padding: 32px;
     }
-    
-    .line__lnk {
-        gap: 8px;
-    }
 
-    .line__txt-lnk {
+    .line__a {
         font-size: 16px;
         line-height: 19x;
     }
 
-    .line__img-lnk {
+    .line__a--flex {
+        gap: 8px;
+    }
+
+    .line__img-name {
         width: 16px;
         height: 16px;
     }
 
-    /* Card Elements */
+    /* Cards */
 
-    .line__img-article {
+    .line__img-product {
         width: 164px;
-    }
-
-    .line__lnk-article {
-        font-size: 16px;
-        line-height: 19px;
     }
 }
 
@@ -118,15 +100,15 @@
     .line {
         padding: 64px;
     }
-    
-    .line__title {
+
+    .line__h2 {
         font-size: 32px;
         line-height: 38px;
     }
 
-    /* Card Elements */
+    /* Cards */
 
-    .line__img-article {
+    .line__img-product {
         width: 176px;
     }
 }
